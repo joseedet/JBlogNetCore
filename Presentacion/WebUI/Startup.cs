@@ -16,6 +16,7 @@ namespace WebUI
        
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
         }
 
        
@@ -27,13 +28,14 @@ namespace WebUI
             }
 
             app.UseRouting();
+            app.UseStaticFiles();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                endpoints.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
