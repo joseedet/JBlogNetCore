@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "Presentacion\WebUI\WebUI.csproj", "{9EBE8153-9FEE-4574-9576-0AF619730535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogEngine.WebUI", "Presentacion\WebUI\BlogEngine.WebUI.csproj", "{9EBE8153-9FEE-4574-9576-0AF619730535}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4E629073-E1D4-4F4D-A795-7C3C0B1B2978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.DataModel", "Data\BlogEngine.DataModel\BlogEngine.DataModel.csproj", "{BBE91C72-1689-42D0-89F3-3BC2D616447E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{9EBE8153-9FEE-4574-9576-0AF619730535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EBE8153-9FEE-4574-9576-0AF619730535}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EBE8153-9FEE-4574-9576-0AF619730535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE91C72-1689-42D0-89F3-3BC2D616447E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE91C72-1689-42D0-89F3-3BC2D616447E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE91C72-1689-42D0-89F3-3BC2D616447E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE91C72-1689-42D0-89F3-3BC2D616447E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBE91C72-1689-42D0-89F3-3BC2D616447E} = {4E629073-E1D4-4F4D-A795-7C3C0B1B2978}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06E26F26-BA09-4C35-A47C-4AFDF4EF9F73}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Content\css\site.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Content\images\" />
+    <Folder Include="wwwroot\Content\js\" />
+    <Folder Include="wwwroot\Content\lib\" />
+  </ItemGroup>
+
+</Project>
