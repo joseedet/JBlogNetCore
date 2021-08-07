@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogEngine.WebUI", "Present
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4E629073-E1D4-4F4D-A795-7C3C0B1B2978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.DataModel", "Data\BlogEngine.DataModel\BlogEngine.DataModel.csproj", "{BBE91C72-1689-42D0-89F3-3BC2D616447E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogEngine.DataModel", "Data\BlogEngine.DataModel\BlogEngine.DataModel.csproj", "{BBE91C72-1689-42D0-89F3-3BC2D616447E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bussines", "Bussines", "{6116195B-B6D1-4959-8818-435FE89C281B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.Bussines.Interfaces", "Bussines\BlogEngine.Bussines.Interfaces\BlogEngine.Bussines.Interfaces\BlogEngine.Bussines.Interfaces.csproj", "{741ECB0E-69FE-4218-AA9B-B15BFCE0A3AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.Business.Models", "Bussines\BlogEngine.Business.Models\BlogEngine.Business.Models\BlogEngine.Business.Models.csproj", "{4852488A-78B6-4095-850F-73F093856396}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +29,22 @@ Global
 		{BBE91C72-1689-42D0-89F3-3BC2D616447E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBE91C72-1689-42D0-89F3-3BC2D616447E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBE91C72-1689-42D0-89F3-3BC2D616447E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741ECB0E-69FE-4218-AA9B-B15BFCE0A3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741ECB0E-69FE-4218-AA9B-B15BFCE0A3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741ECB0E-69FE-4218-AA9B-B15BFCE0A3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741ECB0E-69FE-4218-AA9B-B15BFCE0A3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4852488A-78B6-4095-850F-73F093856396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4852488A-78B6-4095-850F-73F093856396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4852488A-78B6-4095-850F-73F093856396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4852488A-78B6-4095-850F-73F093856396}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BBE91C72-1689-42D0-89F3-3BC2D616447E} = {4E629073-E1D4-4F4D-A795-7C3C0B1B2978}
+		{741ECB0E-69FE-4218-AA9B-B15BFCE0A3AF} = {6116195B-B6D1-4959-8818-435FE89C281B}
+		{4852488A-78B6-4095-850F-73F093856396} = {6116195B-B6D1-4959-8818-435FE89C281B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06E26F26-BA09-4C35-A47C-4AFDF4EF9F73}
