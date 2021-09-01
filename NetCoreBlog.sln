@@ -11,9 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogEngine.DataModel", "Dat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bussines", "Bussines", "{6116195B-B6D1-4959-8818-435FE89C281B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.Bussines.Interfaces", "Bussines\BlogEngine.Bussines.Interfaces\BlogEngine.Bussines.Interfaces\BlogEngine.Bussines.Interfaces.csproj", "{741ECB0E-69FE-4218-AA9B-B15BFCE0A3AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogEngine.Bussines.Interfaces", "Bussines\BlogEngine.Bussines.Interfaces\BlogEngine.Bussines.Interfaces\BlogEngine.Bussines.Interfaces.csproj", "{741ECB0E-69FE-4218-AA9B-B15BFCE0A3AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.Business.Models", "Bussines\BlogEngine.Business.Models\BlogEngine.Business.Models\BlogEngine.Business.Models.csproj", "{4852488A-78B6-4095-850F-73F093856396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogEngine.Business.Models", "Bussines\BlogEngine.Business.Models\BlogEngine.Business.Models\BlogEngine.Business.Models.csproj", "{4852488A-78B6-4095-850F-73F093856396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.Data.Repositories", "Data\BlogEngine.Data.Repositories\BlogEngine.Data.Repositories.csproj", "{487B18E7-2147-41C2-9543-7730FF5B6E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.Data.Interfaces", "Data\BlogEngine.Data.Interfaces\BlogEngine.Data.Interfaces.csproj", "{657E6A16-4AA2-42A4-9F3E-4A6A8C81F3CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{59430205-2195-4821-AC94-44B2F90E9373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.Infrastructure.DependencyInjection", "Infrastructure\BlogEngine.Infrastructure.DependencyInjection\BlogEngine.Infrastructure.DependencyInjection.csproj", "{8D75A5AF-D1D0-4130-81E6-E5F40C549645}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +45,18 @@ Global
 		{4852488A-78B6-4095-850F-73F093856396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4852488A-78B6-4095-850F-73F093856396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4852488A-78B6-4095-850F-73F093856396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487B18E7-2147-41C2-9543-7730FF5B6E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487B18E7-2147-41C2-9543-7730FF5B6E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487B18E7-2147-41C2-9543-7730FF5B6E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487B18E7-2147-41C2-9543-7730FF5B6E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657E6A16-4AA2-42A4-9F3E-4A6A8C81F3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657E6A16-4AA2-42A4-9F3E-4A6A8C81F3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657E6A16-4AA2-42A4-9F3E-4A6A8C81F3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657E6A16-4AA2-42A4-9F3E-4A6A8C81F3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D75A5AF-D1D0-4130-81E6-E5F40C549645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D75A5AF-D1D0-4130-81E6-E5F40C549645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D75A5AF-D1D0-4130-81E6-E5F40C549645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D75A5AF-D1D0-4130-81E6-E5F40C549645}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +65,9 @@ Global
 		{BBE91C72-1689-42D0-89F3-3BC2D616447E} = {4E629073-E1D4-4F4D-A795-7C3C0B1B2978}
 		{741ECB0E-69FE-4218-AA9B-B15BFCE0A3AF} = {6116195B-B6D1-4959-8818-435FE89C281B}
 		{4852488A-78B6-4095-850F-73F093856396} = {6116195B-B6D1-4959-8818-435FE89C281B}
+		{487B18E7-2147-41C2-9543-7730FF5B6E25} = {4E629073-E1D4-4F4D-A795-7C3C0B1B2978}
+		{657E6A16-4AA2-42A4-9F3E-4A6A8C81F3CD} = {4E629073-E1D4-4F4D-A795-7C3C0B1B2978}
+		{8D75A5AF-D1D0-4130-81E6-E5F40C549645} = {59430205-2195-4821-AC94-44B2F90E9373}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06E26F26-BA09-4C35-A47C-4AFDF4EF9F73}

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +12,20 @@
     <Folder Include="wwwroot\Content\images\" />
     <Folder Include="wwwroot\Content\js\" />
     <Folder Include="wwwroot\Content\lib\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="5.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Bussines\BlogEngine.Bussines.Interfaces\BlogEngine.Bussines.Interfaces\BlogEngine.Bussines.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\BlogEngine.Infrastructure.DependencyInjection\BlogEngine.Infrastructure.DependencyInjection.csproj" />
   </ItemGroup>
 
 </Project>
